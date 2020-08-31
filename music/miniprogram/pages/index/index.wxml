@@ -1,0 +1,7 @@
+<swiper>
+  <block wx:for="{{swiperImgUrl}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item.url}}"></image>
+    </swiper-item>
+  </block>
+</swiper>

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/playlist/playlist",
+    "pages/blog/blog",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#474747",
+    "selectedColor": "#d43c43",
+    "list": [
+      {
+        "pagePath": "pages/playlist/playlist",
+        "text": "歌单",
+        "iconPath": "images/playlist.png",
+        "selectedIconPath": "images/playlist_select.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "发布",
+        "iconPath": "images/blog.png",
+        "selectedIconPath": "images/blog_select.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "歌单",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_select.png"
+      }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
